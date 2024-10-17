@@ -1,1 +1,1 @@
-This MongoDB task is about ZEN-CLASS portal and it is use to manage and find these quires 
+ The "zen_class" database has collections for users, codekata, attendance, topics, tasks, company drives, and mentors. It stores information about students, code challenges, class attendance, topics taught, tasks assigned, company placement drives, and mentors.
