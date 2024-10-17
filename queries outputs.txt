@@ -1,0 +1,147 @@
+1. OUTPUT:
+{
+  topicid: 1,
+  topic: 'HTML',
+  topic_date: 2020-10-17T18:30:00.000Z,
+  tasks: [
+    'HTML Task'
+  ],
+  due_dates: [
+    2020-10-17T18:30:00.000Z
+  ]
+}
+{
+  topicid: 2,
+  topic: 'CSS',
+  topic_date: 2020-10-27T18:30:00.000Z,
+  tasks: [
+    'CSS Task'
+  ],
+  due_dates: [
+    2020-10-27T18:30:00.000Z
+  ]
+}
+ 2.OUTPUT:
+{
+  _id: ObjectId('671118b18ad730f943899f33'),
+  userid: 1,
+  drive_date: 2020-10-19T18:30:00.000Z,
+  company: 'Apple'
+}
+{
+  _id: ObjectId('671118b18ad730f943899f34'),
+  userid: 1,
+  drive_date: 2020-10-21T18:30:00.000Z,
+  company: 'Amazon'
+}
+{
+  _id: ObjectId('671118b18ad730f943899f35'),
+  userid: 2,
+  drive_date: 2020-10-24T18:30:00.000Z,
+  company: 'TCS'
+}
+{
+  _id: ObjectId('671118b18ad730f943899f36'),
+  userid: 3,
+  drive_date: 2020-10-29T18:30:00.000Z,
+  company: 'Flipkart'
+}
+{
+  _id: ObjectId('671118b18ad730f943899f37'),
+  userid: 4,
+  drive_date: 2020-11-04T18:30:00.000Z,
+  company: 'Zomato'
+}
+ 
+3.OUTPUT:
+{
+  drive_date: 2020-10-19T18:30:00.000Z,
+  company: 'Apple',
+  students: [
+    {
+      _id: ObjectId('671118368ad730f943899f1a'),
+      userid: 1,
+      name: 'Santhosh',
+      email: 'santhosh@gmail.com'
+    }
+  ]
+}
+{
+  drive_date: 2020-10-21T18:30:00.000Z,
+  company: 'Amazon',
+  students: [
+    {
+      _id: ObjectId('671118368ad730f943899f1a'),
+      userid: 1,
+      name: 'Santhosh',
+      email: 'santhosh@gmail.com'
+    }
+  ]
+}
+{
+  drive_date: 2020-10-24T18:30:00.000Z,
+  company: 'TCS',
+  students: [
+    {
+      _id: ObjectId('671118368ad730f943899f1b'),
+      userid: 2,
+      name: 'Surya',
+      email: 'surya@gmail.com'
+    }
+  ]
+}
+{
+  drive_date: 2020-10-29T18:30:00.000Z,
+  company: 'Flipkart',
+  students: [
+    {
+      _id: ObjectId('671118368ad730f943899f1c'),
+      userid: 3,
+      name: 'Shiyam',
+      email: 'shiyam@gmail.com'
+    }
+  ]
+}
+
+  drive_date: 2020-11-04T18:30:00.000Z,
+  company: 'Zomato',
+  students: [
+    {
+      _id: ObjectId('671118368ad730f943899f1d'),
+      userid: 4,
+      name: 'Muhib',
+      email: 'muhib@gmail.com'
+    }
+  ]
+}
+ 
+4.OUTPUT:
+
+{
+  total_problems_solved: 90,
+  userid: 3
+}
+{
+  total_problems_solved: 60,
+  userid: 2
+}
+{
+  total_problems_solved: 50,
+  userid: 1
+}
+{
+  total_problems_solved: 61,
+  userid: 5
+}
+{
+  total_problems_solved: 51,
+  userid: 4
+}
+
+5.OUTPUT:
+
+
+
+
+
+
